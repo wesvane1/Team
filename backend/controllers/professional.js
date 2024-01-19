@@ -25,6 +25,5 @@ const data = {
     "Feel free to contact him at birchn@byui.edu if you'd like for him to work for you!",
 };
 exports.getData = (req, res, next) => {
-  // await mongodb call
   res.status(200).json(data);
 };
